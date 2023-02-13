@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<h1><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<title> Registration Page</title></h1>
+</head>
+
+
+<body>
+<h1 align=center><b> Registration Page </b> </h1><br><br>
+<table align='center'>
+<td>
+<fieldset>
+	<legend >General Information :</legend> 
+	<form action="registrations.php" method="post" novalidate>
+    <label for="fname">First Name:</label>
+    <input type="text" id="fname" name="fname"><br><br>
+    <label for="lname">Last Name:</label>
+    <input type="text" id="lname" name="lname"><br><br>
+    <label for="faname">Father's Name:</label>
+    <input type="text" id="faname" name="faname"><br><br>
+    <label for="maname">Mother's Name:</label>
+    <input type="text" id="maname" name="maname">
+    <br><br>
+
+    <label for="dob">date of Birth:</label>
+    <input type="date" id="dob" name="dob"> <br><br>
+    <label for="gender">Gender : </label>
+    <input type="radio" id="male" name="gender" value="Male">  
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="Female">
+    <label for="female">Female</label><br><br>
+    <label for="bg">Blood Group</label>
+    <select id="bg" name="bd"> <br>
+
+    	
+    	<option value="A+">A+</option> 
+    	<option value="A-">A-</option>
+    	<option value="O-">O-</option> 
+    	<option value="AB+">Ab+</option>
+    	<option value="AB-">AB-</option>  
+    	<option value="B+">B+</option>
+    	<option value="O+">O+</option> 
+    	<option value="B+">B+</option>
+    	</select><br><br>
+
+</fieldset >
+<fieldset >
+ <legend >Contact Information :</legend>
+ <label for="email">Email:</label>
+ <input type="text" id="email" name="email"><br> <br>
+  <label for="ph">Phone:</label>
+   <input type="text" id="ph" name="ph"><br> <br> 
+    <label for="website">Website:</label> 
+     <input type="text" id="website" name="website"><br> <br>
+     <label for="pa">Present Address:</label> 
+      <textarea id="pa" name="pa" rows="4" cols="50"></textarea> 
+  </fieldset >
+  <fieldset >
+   <legend >Account Information :</legend>
+    <label for="uname">Username:</label> 
+     <input type="text" id="uname" name="uname"><br> <br>
+      <label for="pass">Password:</label>
+        <input type="pass" id="pass" name="pass"><br> <br>
+         </fieldset >
+        <p align="center"><input type="submit" value="Registration" name='submit'></p> 
+         </table>
