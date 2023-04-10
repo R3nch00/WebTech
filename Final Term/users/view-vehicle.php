@@ -6,8 +6,6 @@ if (strlen($_SESSION['vpmsuid']==0)) {
   header('location:logout.php');
   } else{
 
-
-
   ?>
 <!doctype html>
 
@@ -71,9 +69,7 @@ if (strlen($_SESSION['vpmsuid']==0)) {
         <div class="content">
             <div class="animated fadeIn">
                 <div class="row">
-                   
-         
-
+                         
                 <div class="col-lg-12">
                     <div class="card">
                         <div class="card-header">
@@ -125,7 +121,6 @@ $cnt=$cnt+1;
             </div>
 
    
-
         </div>
     </div><!-- .animated -->
 </div><!-- .content -->
@@ -144,7 +139,6 @@ $cnt=$cnt+1;
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/jquery-match-height@0.7.2/dist/jquery.matchHeight.min.js"></script>
 <script src="../admin/assets/js/main.js"></script>
-
 
 </body>
 </html>
